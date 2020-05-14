@@ -1,8 +1,14 @@
 
-# a = int(input())
-# b = int(input())
-# print(a+b)
-a = input()
-b = input()
-print(len(a+b))
-print(len(a)+len(b))
+a=(1,2,3,True,"english","chinese",2,"haha","xixi")
+#print(a[4])
+# print(a.count(2))
+# b = type(a)
+# print(b) 
+
+b=(a,"haha","xixi")
+print(b[0][3])
+
+
+
+
+
